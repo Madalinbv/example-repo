@@ -1,3 +1,6 @@
 # example_repository
 This is a sample repo.
-Hello World
+
+Hello World and coders
+
+This is a second change.
