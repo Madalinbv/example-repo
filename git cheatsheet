@@ -1,0 +1,26 @@
+git config
+Used to set various configurations such as user name and email
+git config --global user.name "Your Name"
+git config --global user.email "email address"
+
+git init - Initialize Git to create a new repository
+git clone - Create a local working copy of a repository
+git clone <repository URL>
+git add - Adds one or more modified files to the staging area
+stages all changes
+stages new files and modifications, without deletions stages modifications and deletions, without new files
+git add -A
+git add .
+git add -u
+git add <file> stages a specific file
+git commit
+Commits the files added with git add to the repository
+git commit -m "Commit message"
+git status
+Lists the status of the modified files and commits
+git push
+Uploads the local commits to the remote repository
+git push origin <branch>
+git pull
+Downloads and merges content from a remote repository to the local repository
+git pull origin <branch>
